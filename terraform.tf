@@ -7,6 +7,7 @@ terraform {
      name = "learn-terraform-cloud"
    }
   }
+
 */
 
   required_providers {
@@ -14,4 +15,5 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 3.28.0"
     }
+}
 }
